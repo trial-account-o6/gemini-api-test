@@ -1,0 +1,19 @@
+{
+  "name": "pi-agent-system-poc",
+  "version": "1.0.0",
+  "description": "Proof of Concept for Pi Agent ticket resolution system",
+  "main": "index.js",
+  "scripts": {
+    "poc": "node index.js",
+    "poc:interactive": "node index-interactive.js",
+    "test": "echo \"POC - No tests yet\" && exit 0"
+  },
+  "keywords": ["pi-agent", "workflow", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.0",
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  }
+}
